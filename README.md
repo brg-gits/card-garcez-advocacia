@@ -32,3 +32,7 @@ Para publicar posteriormente no site, mover os arquivos da raiz para `https://dg
 ## Privacidade
 
 Não há formulários, analytics, cookies ou armazenamento de dados de visitantes. A página divulga somente os contatos institucionais informados.
+
+## QR Code de contato
+
+O QR Code em `assets/qr-contato.svg` armazena diretamente um vCard 3.0 (nome institucional, telefone, e-mail e site). Câmeras compatíveis podem abrir a criação de contato sem acessar uma URL. O botão `Salvar contato` e o clique na imagem continuam oferecendo o `contato.vcf` completo (incluindo endereço). O QR Code não depende mais do domínio da hospedagem. A importação final requer confirmação do usuário e pode variar conforme o aplicativo de câmera.
