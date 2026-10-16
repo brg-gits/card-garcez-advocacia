@@ -36,3 +36,11 @@ Não há formulários, analytics, cookies ou armazenamento de dados de visitante
 ## QR Code de contato
 
 O QR Code em `assets/qr-contato.svg` armazena diretamente um vCard 3.0 (nome institucional, telefone, e-mail e site). Câmeras compatíveis podem abrir a criação de contato sem acessar uma URL. O botão `Salvar contato` e o clique na imagem continuam oferecendo o `contato.vcf` completo (incluindo endereço). O QR Code não depende mais do domínio da hospedagem. A importação final requer confirmação do usuário e pode variar conforme o aplicativo de câmera.
+
+## Identidade e contato (atualização de 16/10/2026)
+
+- O nome exibido é **Garcez Advocacia - Dra. Danielle Rosas Garcez**.
+- O vCard baixável contém endereço e foto de perfil SELO1.png incorporada em base64.
+- O QR Code incorpora nome, telefone, e-mail, endereço e site em vCard 3.0; a foto não é embutida no QR Code para preservar a leitura nativa por câmeras móveis.
+- A imagem SELO1.png, fornecida pelo escritório, também é a base do favicon redondo com fundo azul-escuro.
+- A página card.html segue na raiz do repositório.
